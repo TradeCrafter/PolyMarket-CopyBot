@@ -1,3 +1,8 @@
+
+![4938707384310369140](https://github.com/user-attachments/assets/a7bc0a6b-104b-4b94-aa16-d6b70f283014)
+
+
+
 # 🎯 Polymarket Copy Trading Bot
 
 Bot que monitora carteiras no Polymarket e replica automaticamente seus trades com gerenciamento de risco configurável.
