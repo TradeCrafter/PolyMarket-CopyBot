@@ -39,8 +39,8 @@
     "sizing_ensemble": [],
 
     "_comment_telegram": "=== TELEGRAM ===",
-    "telegram_bot_token": "",
-    "telegram_chat_id": "",
+    "telegram_bot_token": "BOT_TOKEN",
+    "telegram_chat_id": "CHAT_ID",
     "telegram_enabled": true,
     "telegram_notify_trades": true,
     "telegram_notify_errors": true,
