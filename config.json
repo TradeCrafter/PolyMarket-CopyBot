@@ -16,7 +16,7 @@
     "_comment_limits": "=== LIMITES AJUSTADOS PRA $50 ===",
     "min_trade_usdc": 0.1,
     "max_trade_usdc": 3.0,
-    "max_total_exposure": 35.0,
+    "max_total_exposure": 50.0,
     "max_per_market": 5.0,
     "max_daily_loss": 10.0,
 
