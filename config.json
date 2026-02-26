@@ -1,0 +1,53 @@
+{
+    "_comment": "=== CONFIG OTIMIZADO PARA $50 DE CAPITAL ===",
+
+    "private_key": "SUA PRIVATE KEY",
+    "funder_address": "SUA PUBLIC KEY",
+    "signature_type": 0,
+
+    "target_wallets": [
+        {
+            "address": "ENDEREÇO A SER COPIADO",
+            "label": "NOME",
+            "copy_ratio": 0.05
+        }
+    ],
+
+    "_comment_limits": "=== LIMITES AJUSTADOS PRA $50 ===",
+    "min_trade_usdc": 0.1,
+    "max_trade_usdc": 3.0,
+    "max_total_exposure": 35.0,
+    "max_per_market": 5.0,
+    "max_daily_loss": 10.0,
+
+    "poll_interval_seconds": 5,
+    "dry_run": true,
+    "auto_redeem": true,
+    "redeem_interval_minutes": 60,
+
+    "_comment_filters": "=== FILTROS ===",
+    "skip_sports": false,
+    "min_target_trade_usdc": 0.001,
+    "max_price": 2,
+    "min_price": 0.001,
+
+    "_comment_sizing": "=== SIZING: $1 FIXO POR TRADE ===",
+    "sizing_strategy": "fixed_amount",
+    "sizing_params": {
+        "fixed_amount": 3.0
+    },
+    "sizing_ensemble": [],
+
+    "_comment_telegram": "=== TELEGRAM ===",
+    "telegram_bot_token": "8216418968:AAFT2ef1oJDRTCaDwwqAqtKFEwAVQrokJNg",
+    "telegram_chat_id": "1054717884",
+    "telegram_enabled": true,
+    "telegram_notify_trades": true,
+    "telegram_notify_errors": true,
+    "telegram_notify_risk": true,
+    "telegram_summary_hours": 6,
+    "telegram_commands": true,
+
+    "log_level": "INFO",
+    "log_file": "copy_trader.log"
+}
